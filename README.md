@@ -17,6 +17,17 @@ json = [[HWJson alloc] initWithString:resString];
 
 ```
 
+获取数组元素：
+
+```
+HWJson * json = [[HWJson alloc] initWithString:jsonString];
+HWJson * firstJson =  [json objectForQuery:@"item[0]"];
+
+//如果本身就是数组直接去掉item
+//使用 @"[0]"  
+```
+
+
 查看json结构，然后写query语句
 
 原始Json
