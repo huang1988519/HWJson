@@ -13,6 +13,7 @@
 		D9296E061E07938D0094A2D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9296E041E07938D0094A2D9 /* Main.storyboard */; };
 		D9296E081E07938D0094A2D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9296E071E07938D0094A2D9 /* Assets.xcassets */; };
 		D9296E0B1E07938D0094A2D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9296E091E07938D0094A2D9 /* LaunchScreen.storyboard */; };
+		D9296E171E0793D80094A2D9 /* HWJson.m in Sources */ = {isa = PBXBuildFile; fileRef = D9296E161E0793D80094A2D9 /* HWJson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D9296E071E07938D0094A2D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9296E0A1E07938D0094A2D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9296E0C1E07938D0094A2D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9296E151E0793D80094A2D9 /* HWJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWJson.h; sourceTree = "<group>"; };
+		D9296E161E0793D80094A2D9 /* HWJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWJson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		D9296DFA1E07938D0094A2D9 /* HWJson */ = {
 			isa = PBXGroup;
 			children = (
+				D9296E141E0793BD0094A2D9 /* HWJsonSrc */,
 				D9296DFE1E07938D0094A2D9 /* AppDelegate.h */,
 				D9296DFF1E07938D0094A2D9 /* AppDelegate.m */,
 				D9296E011E07938D0094A2D9 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				D9296DFC1E07938D0094A2D9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9296E141E0793BD0094A2D9 /* HWJsonSrc */ = {
+			isa = PBXGroup;
+			children = (
+				D9296E151E0793D80094A2D9 /* HWJson.h */,
+				D9296E161E0793D80094A2D9 /* HWJson.m */,
+			);
+			path = HWJsonSrc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9296E171E0793D80094A2D9 /* HWJson.m in Sources */,
 				D9296E031E07938D0094A2D9 /* ViewController.m in Sources */,
 				D9296E001E07938D0094A2D9 /* AppDelegate.m in Sources */,
 				D9296DFD1E07938D0094A2D9 /* main.m in Sources */,
@@ -312,6 +326,7 @@
 				D9296E111E07938D0094A2D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
