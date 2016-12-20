@@ -62,3 +62,8 @@ NSlog(@"%@", [sedJson objectForQuery:@"005"]);
 NSLog(@"%@", [sedJson objectforQuery:@"000"];
 
 ```
+
+### 欢迎大家补充
+
+由于本人自己的习惯是使用字典来对json存储，身边大部分朋友还是喜欢使用Model的方式。所以使用时自己分场景使用。   
+功能简陋，欢迎大家补充或者发邮件到  ` huang1988519@126.com` 进行沟通。
